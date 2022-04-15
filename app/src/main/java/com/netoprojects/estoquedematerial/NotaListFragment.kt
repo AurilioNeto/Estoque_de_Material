@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 
 /**
- * [NotaFragment] allows people to click the create note button
+ * [NotaListFragment] allows people to click the create note button
  */
-class NotaFragment : Fragment() {
+class NotaListFragment : Fragment() {
 
-    private var binding: NotaFragment? = null
+    private var binding: NotaListFragment? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +23,6 @@ class NotaFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_nota, container, false)
+        return inflater.inflate(R.layout.nota_list_fragment, container, false)
     }
 }
