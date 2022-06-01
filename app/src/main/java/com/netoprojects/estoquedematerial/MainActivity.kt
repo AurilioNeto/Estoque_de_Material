@@ -8,10 +8,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        println("This is contained in my second commit")
-        println("Local change")
-        println("Change 12")
-        println("This line will be merged")
-
     }
 }
